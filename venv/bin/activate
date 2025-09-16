@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV=/home/eikaum/IC_MC/venv
+VIRTUAL_ENV=/home/eikaum/Documents/IC_MC/venv
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
