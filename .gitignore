@@ -1,6 +1,6 @@
 # --- Virtual Environment ---
 # Ignore the virtual environment folder
-/venv/
+venv/
 
 # --- VS Code ---
 # Ignore workspace settings and caches
@@ -11,30 +11,3 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
-# Ignore build artifacts and distribution folders
-/build/
-/dist/
-/*.egg-info/
-/sdist/
-/wheel/
-
-# Ignore Python test reports
-/htmlcov/
-/.pytest_cache/
-/.tox/
-
-# --- Jupyter Notebook ---
-# Ignore notebook checkpoints
-.ipynb_checkpoints/
-
-# --- Secrets ---
-# Ignore environment files containing secrets and API keys
-# IMPORTANT: If you created a .env file, make sure to add it here
-.env
-.env.*
-secrets.ini
-
-# --- OS-specific files ---
-.DS_Store
-Thumbs.db
